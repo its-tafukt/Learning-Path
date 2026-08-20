@@ -1,1 +1,0 @@
-I want to create a simple web page with HTML only 
