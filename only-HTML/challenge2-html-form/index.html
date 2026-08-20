@@ -3,46 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
 </head>
 <body>
     <form action="registration">
         <center>
             <h1>Sign Up</h1>
+            <table>
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                        <input type="text" placeholder="full name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="text" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="text" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td>
+                        <select name="id_country" id="id_country">
+                            <option value="Spain">+34</option>
+                            <option value="France">+33</option>
+                            <option value="German">+45</option>
+                            <option value="Italy">+39</option>
+                            <option value="USA">+1</option>
+                        </select>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td>
+                        <select name="age" id="age">
+                            <option value="underage">12-18</option>
+                            <option value="major">18-25</option>
+                            <option value="adult">25-35</option>
+                            <option value="Italy">+35</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender"> Female
+                        <input type="radio" name="gender"> Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" id="submit">
+                    </td>
+                </tr>
+            </table>
         </center>
-        <table>
-            <tr>
-                <td>Full Name:</td>
-                <td>
-                    <input type="text" placeholder="full name">
-                </td>
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td><input type="text" placeholder="email"></td>
-            </tr>
-            <tr>
-                <td>Password:</td>
-                <td><input type="text" placeholder="password"></td>
-            </tr>
-            <tr>
-                <td>Confirm Password:</td>
-                <td><input type="text" placeholder="password"></td>
-            </tr>
-            <tr>
-                <td>Phone Number:</td>
-                <td>
-                    <select name="id_country" id="id_country">
-                        <option value="Spain">+34</option>
-                        <option value="France">+33</option>
-                        <option value="German">+45</option>
-                        <option value="Italy">+39</option>
-                        <option value="USA">+1</option>
-                    </select>
-                    <input type="text">
-                </td>
-            </tr>
-        </table>
+        
     </form>
 </body>
 </html>
