@@ -2,19 +2,26 @@ body{
     padding: 30px;
     background-color: rgb(133, 86, 243);
     align-items: center;
+    object-fit: cover;
 
 }
 
 header{
     display: flex;
     justify-content: space-between;
-
+    font-size: 20px;
+    align-items: center;
 }
 
+header a{
+    text-decoration: none;
+    color: white;
+    
+}
 .container{
     display: flex;
     justify-content: space-between;
-    padding: 200px;
+    padding: 150px;
 }
 .title{
     width: 400px;
@@ -24,6 +31,7 @@ header{
 
 .text{
     width: 300px;
+    font-size: 20px;
 }
 strong{
     color: rgb(77, 3, 173);
@@ -32,7 +40,27 @@ strong{
 
 img{
     border-radius: 999px;
-    width: 350px;
-    height: 400px;
+    width: 400px;
+    height: 450px;
     box-shadow:  0px 0px 40px rgb(41, 3, 110);
+}
+
+.button{
+    margin-top: 30px;
+    
+
+}
+.btn1{
+    background-color: rgb(29, 3, 51);
+    color: white; 
+    box-shadow: 0 0 10px rgb(41, 3, 110);
+    font-size: 18px;
+}
+
+.btn2{
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 10px white;
+    font-size: 18px;
+
 }
