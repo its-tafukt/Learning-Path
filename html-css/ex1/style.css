@@ -1,0 +1,38 @@
+body{
+    padding: 30px;
+    background-color: rgb(133, 86, 243);
+    align-items: center;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+}
+.title{
+    width: 400px;
+    color: #fff ;
+    font-size: 60px;
+}
+
+.text{
+    width: 300px;
+}
+strong{
+    color: rgb(77, 3, 173);
+
+}
+
+img{
+    border-radius: 999px;
+    width: 350px;
+    height: 400px;
+    box-shadow:  0px 0px 40px rgb(41, 3, 110);
+}
