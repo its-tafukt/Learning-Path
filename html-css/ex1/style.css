@@ -25,6 +25,10 @@ header a{
     color: white;
 
 }
+a{
+    text-decoration: none;
+    color: rgb(77, 3, 173)
+}
 
 
 .container{
